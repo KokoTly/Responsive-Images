@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #042e035f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
